@@ -1,0 +1,14 @@
+Transaction ID,From User ID,To User ID,Amount,Type,Status,Reason,Admin ID,Created At
+690e8940ead42fa994f7e9b4,"{
+  _id: new ObjectId('690e86ad31b4668a365a6281'),
+  name: 'Player One',
+  email: 'player1@example.com'
+}","{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",1000,request,approved,,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",2025-11-08T00:05:20.070Z

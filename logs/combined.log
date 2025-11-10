@@ -1,0 +1,580 @@
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:49.832Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:49.887Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:49.975Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:55.571Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:55.583Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:55.718Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:55.875Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:55.879Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:30:55.883Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:24.556Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:24.565Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:24.584Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:46.654Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:46.660Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:46.668Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:47.877Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:47.879Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:48.005Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:48.141Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:48.142Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:31:48.144Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:06.019Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:06.024Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:06.035Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:07.291Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:07.293Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:07.421Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:07.521Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:07.522Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:33:07.524Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:29.057Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:29.061Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:29.072Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:30.979Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:30.981Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:31.125Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:31.302Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:31.304Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:34:31.305Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:52.883Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:52.889Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:52.897Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:54.252Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:54.254Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:54.407Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:54.601Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:54.603Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:35:54.605Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:13.250Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:13.262Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:13.280Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:34.990Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:34.996Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:35.010Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:37.677Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:37.679Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:37.814Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:37.912Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:37.913Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:36:37.915Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:47.761Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:47.768Z"}
+{"level":"info","message":"Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:47.775Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.107Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.109Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.223Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.337Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.339Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.341Z"}
+{"level":"warn","message":"Bulk transfer worker not initialized - Redis not available","service":"zynga-poker-backend","timestamp":"2025-11-07T21:43:49.799Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:02.842Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:02.854Z"}
+{"level":"info","message":"Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:02.872Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.155Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.158Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.303Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.411Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.413Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.414Z"}
+{"level":"warn","message":"Bulk transfer worker not initialized - Redis not available","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:04.886Z"}
+{"level":"info","message":"Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:28.467Z"}
+{"level":"info","message":"Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:28.475Z"}
+{"level":"info","message":"Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:28.481Z"}
+{"level":"warn","message":"Bulk transfer worker not initialized - Redis not available","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:30.488Z"}
+{"level":"info","message":"MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:30.759Z"}
+{"level":"warn","message":"Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:30.762Z"}
+{"level":"info","message":"Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:30.894Z"}
+{"level":"info","message":"Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:31.010Z"}
+{"level":"info","message":"Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:31.012Z"}
+{"level":"info","message":"MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T21:44:31.015Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:49:45.986Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:49:45.991Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T21:49:45.999Z"}
+{"level":"warn","message":"Bulk transfer worker not initialized - Redis not available","service":"zynga-poker-backend","timestamp":"2025-11-07T21:49:48.030Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:04.888Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:04.893Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:04.902Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:06.936Z"}
+{"level":"warn","message":"⚠️  Database name is \"zyngaPoker\" but expected \"zynga_poker\"","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:06.941Z"}
+{"level":"warn","message":"Bulk transfer worker not initialized - Redis not available","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:06.984Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T21:52:07.119Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:45.653Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:45.661Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:45.670Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:47.896Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:47.974Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:47.975Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:45:48.096Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:56.793Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:56.800Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:56.807Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:57.973Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:57.975Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:58.100Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:58.200Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:58.202Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:58.204Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T23:46:58.845Z"}
+{"level":"warn","message":"Login attempt with invalid email: admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:49:40.366Z"}
+{"level":"info","message":"POST /login 401 153ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:49:40.379Z"}
+{"level":"warn","message":"Login attempt with invalid email: admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:49:42.784Z"}
+{"level":"info","message":"POST /login 401 116ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:49:42.788Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:30.396Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:30.403Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:30.414Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:31.806Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:31.807Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:31.924Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:32.025Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:32.025Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:32.026Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:32.454Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:47.289Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:47.296Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:47.309Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:48.484Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:48.486Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:48.614Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:48.723Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:48.732Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:48.737Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:52.371Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:52.378Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:52.385Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:53.606Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:53.608Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:53.727Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:53.829Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:53.830Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:53.832Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:54.407Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:58.846Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:58.852Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:51:58.861Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.159Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.162Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.309Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.429Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.431Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.433Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:00.909Z"}
+{"level":"warn","message":"Login attempt with invalid email: admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:27.444Z"}
+{"level":"info","message":"POST /login 401 141ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:52:27.450Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:15.002Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:15.009Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:15.023Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:16.304Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:16.307Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:16.451Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:16.601Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:16.603Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:16.605Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:17.055Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:34.657Z"}
+{"level":"info","message":"POST /login 200 411ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:34.662Z"}
+{"level":"info","message":"GET /balance 200 248ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:35.120Z"}
+{"level":"info","message":"GET /balance 304 253ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:55:53.187Z"}
+{"level":"info","message":"Transfer completed: 690e8725ab726982db9b3859 by admin admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:56:21.271Z"}
+{"level":"info","message":"POST /transfer 200 944ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:56:21.276Z"}
+{"level":"info","message":"Credit transfer completed: 690e8734ab726982db9b385f by admin admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:56:36.431Z"}
+{"level":"info","message":"POST /transfer 200 609ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:56:36.433Z"}
+{"level":"info","message":"GET /transactions 200 524ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:56:39.513Z"}
+{"level":"info","message":"GET /balance 200 227ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:56:51.715Z"}
+{"level":"info","message":"GET /balance 304 220ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:02.207Z"}
+{"level":"info","message":"Credit transfer completed: 690e8757ab726982db9b386f by admin admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:11.915Z"}
+{"level":"info","message":"POST /transfer 200 683ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:11.920Z"}
+{"level":"info","message":"GET /balance 200 226ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:22.268Z"}
+{"level":"info","message":"GET /transactions 200 474ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:24.750Z"}
+{"level":"info","message":"GET /transactions/export 200 376ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:28.248Z"}
+{"level":"info","message":"GET /transactions 200 1649ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:36.343Z"}
+{"level":"info","message":"GET /transactions 200 337ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:39.396Z"}
+{"level":"info","message":"GET /transactions 200 335ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:42.477Z"}
+{"level":"info","message":"GET /transactions 200 364ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:44.289Z"}
+{"level":"info","message":"GET /transactions 304 468ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:57:47.987Z"}
+{"level":"warn","message":"Login attempt with invalid password for: player1@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:12.207Z"}
+{"level":"info","message":"POST /login 401 365ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:12.209Z"}
+{"level":"warn","message":"Login attempt with invalid password for: player1@example.com","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:24.383Z"}
+{"level":"info","message":"POST /login 401 366ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:24.384Z"}
+{"level":"info","message":"User logged in: player1@example.com (Player)","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:31.116Z"}
+{"level":"info","message":"POST /login 200 373ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:31.118Z"}
+{"level":"info","message":"GET /balance 200 210ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:31.457Z"}
+{"level":"info","message":"GET /transactions 200 469ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:31.701Z"}
+{"level":"info","message":"GET /balance 304 115ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:45.371Z"}
+{"level":"info","message":"GET /balance 304 112ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:48.310Z"}
+{"level":"info","message":"GET /transactions 304 450ms","service":"zynga-poker-backend","timestamp":"2025-11-07T23:58:48.660Z"}
+{"level":"info","message":"GET /balance 304 115ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:01:33.812Z"}
+{"level":"info","message":"GET /transactions 200 831ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:28.390Z"}
+{"level":"info","message":"GET /transactions 200 467ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:32.790Z"}
+{"level":"info","message":"GET /transactions 200 354ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:35.542Z"}
+{"level":"info","message":"GET /transactions 304 334ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:36.574Z"}
+{"level":"info","message":"GET /transactions 304 452ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:37.958Z"}
+{"level":"info","message":"GET /transactions 304 330ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:38.546Z"}
+{"level":"info","message":"GET /transactions 304 550ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:42.395Z"}
+{"level":"info","message":"GET /balance 304 125ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:45.035Z"}
+{"level":"info","message":"GET /transactions 304 455ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:02:45.371Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:32.148Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:32.175Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:32.213Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:33.791Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:33.793Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:33.918Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:34.149Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:34.166Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:34.170Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:34.248Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:52.317Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:52.324Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:52.333Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:53.780Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:53.783Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:53.903Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:54.001Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:54.003Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:54.005Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-08T00:03:54.352Z"}
+{"level":"info","message":"GET /balance 304 283ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:04:34.192Z"}
+{"level":"info","message":"GET /transactions 304 1117ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:04:35.058Z"}
+{"level":"info","message":"GET /users 200 228ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:04:40.635Z"}
+{"level":"info","message":"Transfer request created: 690e8940ead42fa994f7e9b4 by player1@example.com","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:20.285Z"}
+{"level":"info","message":"POST /transfer 200 599ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:20.290Z"}
+{"level":"info","message":"GET /transactions 200 433ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:26.537Z"}
+{"level":"info","message":"GET /transactions 200 409ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:27.868Z"}
+{"level":"info","message":"GET /balance 304 107ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:30.867Z"}
+{"level":"info","message":"GET /transactions 200 422ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:31.188Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:49.886Z"}
+{"level":"info","message":"POST /login 200 402ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:49.888Z"}
+{"level":"info","message":"GET /balance 200 268ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:50.228Z"}
+{"level":"info","message":"GET /balance 304 201ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:52.659Z"}
+{"level":"info","message":"GET /transactions 200 431ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:53.724Z"}
+{"level":"info","message":"GET /transactions 304 318ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:55.411Z"}
+{"level":"info","message":"GET /transactions 200 419ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:05:56.786Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:34.877Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:34.883Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:34.897Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.540Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.545Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.685Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.906Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.955Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.956Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:36.957Z"}
+{"level":"info","message":"GET /transactions 304 3514ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:38.463Z"}
+{"level":"info","message":"GET /transactions 304 503ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:38.980Z"}
+{"level":"info","message":"GET /transactions 304 471ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:39.580Z"}
+{"level":"info","message":"GET /transactions 304 1070ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:48.274Z"}
+{"level":"info","message":"GET /transactions 304 554ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:07:53.708Z"}
+{"level":"info","message":"GET /transactions 304 566ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:11.759Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:23.154Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:23.161Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:23.169Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:24.632Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:24.643Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:24.804Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:25.092Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:25.102Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:25.105Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:25.223Z"}
+{"level":"info","message":"GET /transactions 200 1222ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:26.641Z"}
+{"level":"info","message":"GET /transactions 304 737ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:32.203Z"}
+{"level":"info","message":"Request approved: 690e8940ead42fa994f7e9b4 by admin admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:35.248Z"}
+{"level":"info","message":"POST /transfer/approve 200 1112ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:35.251Z"}
+{"level":"info","message":"GET /transactions 200 519ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:35.776Z"}
+{"level":"info","message":"GET /balance 200 570ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:08:38.856Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:18.166Z"}
+{"level":"info","message":"POST /login 200 409ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:18.169Z"}
+{"level":"info","message":"GET /balance 304 226ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:18.488Z"}
+{"level":"info","message":"GET /balance 304 238ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:22.231Z"}
+{"level":"info","message":"GET /balance 304 229ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:23.319Z"}
+{"level":"info","message":"GET /balance 304 246ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:29.942Z"}
+{"level":"info","message":"Transfer completed: 690e8a8fefd9f29025d2d124 by admin admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:55.293Z"}
+{"level":"info","message":"POST /transfer 200 940ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:55.300Z"}
+{"level":"info","message":"GET /transactions 200 459ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:10:59.342Z"}
+{"level":"info","message":"GET /transactions 200 457ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:05.615Z"}
+{"level":"info","message":"GET /transactions 304 347ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:07.918Z"}
+{"level":"info","message":"GET /transactions 304 465ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:09.197Z"}
+{"level":"info","message":"GET /transactions 304 468ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:10.025Z"}
+{"level":"info","message":"GET /transactions/export 200 424ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:13.132Z"}
+{"level":"info","message":"User logged in: player1@example.com (Player)","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:28.890Z"}
+{"level":"info","message":"POST /login 200 273ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:28.894Z"}
+{"level":"info","message":"GET /balance 200 227ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:29.232Z"}
+{"level":"info","message":"GET /transactions 200 407ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:29.418Z"}
+{"level":"info","message":"GET /users 200 214ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:34.673Z"}
+{"level":"info","message":"GET /transactions 200 438ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:36.160Z"}
+{"level":"info","message":"GET /transactions 200 438ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:39.164Z"}
+{"level":"info","message":"GET /transactions 304 561ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:41.488Z"}
+{"level":"info","message":"GET /balance 304 111ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:48.709Z"}
+{"level":"info","message":"GET /transactions 304 424ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:49.030Z"}
+{"level":"info","message":"GET /users 304 219ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:11:53.024Z"}
+{"level":"info","message":"Transfer request created: 690e8ad2efd9f29025d2d16c by player1@example.com","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:02.356Z"}
+{"level":"info","message":"POST /transfer 200 529ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:02.362Z"}
+{"level":"info","message":"GET /transactions 200 510ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:05.940Z"}
+{"level":"info","message":"GET /transactions 200 431ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:07.362Z"}
+{"level":"info","message":"GET /transactions 304 468ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:08.888Z"}
+{"level":"info","message":"GET /transactions 200 490ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:09.861Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:24.378Z"}
+{"level":"info","message":"POST /login 200 282ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:24.380Z"}
+{"level":"info","message":"GET /balance 200 223ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:24.685Z"}
+{"level":"info","message":"GET /transactions 200 421ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:27.219Z"}
+{"level":"info","message":"GET /transactions 304 404ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:28.900Z"}
+{"level":"info","message":"Request approved: 690e8ad2efd9f29025d2d16c by admin admin@example.com","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:32.098Z"}
+{"level":"info","message":"POST /transfer/approve 200 857ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:32.106Z"}
+{"level":"info","message":"GET /transactions 200 440ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:32.565Z"}
+{"level":"info","message":"GET /balance 200 211ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:35.415Z"}
+{"level":"info","message":"GET /balance 304 209ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:37.514Z"}
+{"level":"info","message":"GET /transactions 200 427ms","service":"zynga-poker-backend","timestamp":"2025-11-08T00:12:38.346Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:53.211Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:53.249Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:53.276Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:55.718Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:55.811Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:55.815Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:55.956Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:56.078Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:56.079Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-10T19:21:56.083Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:17.556Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:17.824Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:17.890Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:19.723Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:23.855Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:23.865Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:23.879Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.100Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.102Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.215Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.326Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.329Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.332Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-10T19:23:25.915Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:38.729Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:38.741Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:38.760Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.091Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.096Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.210Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.303Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.306Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.308Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-10T19:24:40.791Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:08.740Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:08.747Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:08.763Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:09.932Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:09.938Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:10.073Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:10.183Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:10.186Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:10.187Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-10T19:25:10.771Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:12.163Z"}
+{"level":"info","message":"POST /login 200 541ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:12.175Z"}
+{"level":"info","message":"GET /balance 304 232ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:12.557Z"}
+{"level":"info","message":"GET /balance 304 220ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:15.477Z"}
+{"level":"info","message":"GET /transactions 200 531ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:17.265Z"}
+{"level":"info","message":"GET /transactions 304 467ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:23.500Z"}
+{"level":"info","message":"GET /balance 304 383ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:26:25.613Z"}
+{"level":"info","message":"GET /balance 304 217ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:27:25.948Z"}
+{"level":"info","message":"GET /balance 304 254ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:27:42.340Z"}
+{"level":"info","message":"GET /recovery/verified-users 200 187ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:27:46.767Z"}
+{"level":"info","message":"GET /recovery/banned-users 200 969ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:27:47.539Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 203ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:04.695Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 234ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:04.733Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:09.021Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:09.029Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:09.041Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:10.230Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:10.234Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:10.354Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:10.446Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:10.447Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:10.448Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:11.053Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 240ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:13.580Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 763ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:14.131Z"}
+{"level":"info","message":"GET /transactions 304 422ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:19.485Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 214ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:20.708Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 210ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:28:20.713Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 187ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:37:40.716Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 223ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:37:40.759Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 208ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:37:54.937Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 232ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:37:54.955Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 178ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:37:55.869Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 191ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:37:55.874Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 177ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:38:05.260Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 198ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:38:05.274Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 191ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:38:12.606Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 191ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:38:12.612Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 181ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:38:18.595Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 183ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:38:18.602Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 192ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:17.634Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 192ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:17.639Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 193ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:19.593Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 194ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:19.600Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 181ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:21.579Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 194ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:21.587Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 184ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:24.577Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 179ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:24.580Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 176ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:27.558Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 186ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:27.574Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 185ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:35.569Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 194ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:35.572Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 185ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:44.564Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 182ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:40:44.567Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 576ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:41:01.999Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 229ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:41:02.050Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 181ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:41:03.615Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 188ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:41:03.618Z"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:29.625Z"}
+{"level":"info","message":"📦 Environment: development","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:29.635Z"}
+{"level":"info","message":"✅ Bulk transfer worker module loaded","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:29.644Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:30.884Z"}
+{"level":"info","message":"✅ Connected to database: zynga_poker","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:30.891Z"}
+{"level":"info","message":"✅ Collection 'users' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:31.048Z"}
+{"level":"info","message":"✅ Unique index on 'email' field verified","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:31.166Z"}
+{"level":"info","message":"✅ Collection 'transactions' exists","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:31.179Z"}
+{"level":"info","message":"✅ MongoDB Atlas collections verified and ready.","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:31.183Z"}
+{"level":"info","message":"Bulk transfer worker initialized","service":"zynga-poker-backend","timestamp":"2025-11-10T19:45:31.665Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 319ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:48:46.729Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 275ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:48:46.882Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 216ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:48:57.286Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 900ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:48:57.963Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 240ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:08.670Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 249ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:08.688Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 211ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:19.406Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 256ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:19.445Z"}
+{"level":"info","message":"GET /balance 304 264ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:21.023Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 229ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:22.665Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 249ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:22.675Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 231ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:27.307Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 250ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:27.320Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 219ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:32.632Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 237ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:49:32.644Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 219ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:52:49.991Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 254ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:52:50.021Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 255ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:53:01.571Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 268ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:53:01.575Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 241ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:53:39.524Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 306ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:53:39.581Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 220ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:54:38.234Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 247ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:54:38.256Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 223ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:55:28.631Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 240ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:55:28.641Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 262ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:55:39.878Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 319ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:55:39.941Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 231ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:55:41.274Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 251ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:55:41.302Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 212ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:57:16.617Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 246ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:57:16.646Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 198ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:57:20.330Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 236ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:57:20.364Z"}
+{"level":"info","message":"GET /transactions 304 558ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:13.699Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 237ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:14.259Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 258ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:14.274Z"}
+{"level":"info","message":"GET /transactions 304 494ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:16.775Z"}
+{"level":"info","message":"GET /balance 304 254ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:20.768Z"}
+{"level":"info","message":"GET /balance 304 240ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:22.437Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 232ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:24.185Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 259ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:58:24.200Z"}
+{"level":"info","message":"GET /balance 304 248ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:06.997Z"}
+{"level":"info","message":"GET /transactions 304 485ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:08.881Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 242ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:10.551Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 247ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:10.564Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 229ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:20.610Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 278ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:20.669Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 205ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:23.035Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 241ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:23.066Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 485ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:45.916Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 506ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:45.928Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 217ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:48.674Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 236ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:48.688Z"}
+{"level":"info","message":"GET /recovery/verified-users 200 227ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:50.145Z"}
+{"level":"info","message":"GET /recovery/banned-users 200 262ms","service":"zynga-poker-backend","timestamp":"2025-11-10T19:59:50.173Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 245ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:01.678Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 261ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:01.684Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 239ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:20.608Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 300ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:20.673Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 238ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:45.668Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 267ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:45.690Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 617ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:47.848Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 616ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:47.852Z"}
+{"level":"info","message":"GET /recovery/verified-users 200 1038ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:49.783Z"}
+{"level":"info","message":"GET /recovery/banned-users 200 1119ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:01:49.859Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 207ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:03:29.636Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 224ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:03:29.641Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 202ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:03:38.195Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 201ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:03:38.199Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 209ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:03:42.485Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 204ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:03:42.489Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 202ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:04:53.611Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 203ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:04:53.618Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 224ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:04:54.629Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 224ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:04:54.636Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 219ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:16.643Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 236ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:16.667Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 197ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:21.216Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 208ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:21.221Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 203ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:32.629Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 203ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:32.637Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 204ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:35.541Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 203ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:05:35.544Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 219ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:07.948Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 236ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:07.959Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 199ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:11.020Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 200ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:11.024Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 221ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:21.635Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 232ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:21.640Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 206ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:23.491Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 224ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:06:23.514Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:38.057Z"}
+{"level":"info","message":"POST /login 200 418ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:38.060Z"}
+{"level":"info","message":"GET /balance 304 220ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:38.379Z"}
+{"level":"info","message":"GET /balance 304 207ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:40.591Z"}
+{"level":"info","message":"GET /transactions 304 424ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:41.535Z"}
+{"level":"info","message":"GET /balance 304 206ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:42.631Z"}
+{"level":"info","message":"GET /transactions 304 417ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:47.193Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 209ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:48.137Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 206ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:07:48.141Z"}
+{"level":"info","message":"User logged in: player1@example.com (Player)","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:15.146Z"}
+{"level":"info","message":"POST /login 200 379ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:15.150Z"}
+{"level":"info","message":"GET /balance 200 222ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:15.518Z"}
+{"level":"info","message":"GET /transactions 200 423ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:15.804Z"}
+{"level":"info","message":"GET /users 200 213ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:19.638Z"}
+{"level":"info","message":"GET /transactions 200 419ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:21.030Z"}
+{"level":"info","message":"GET /transactions 200 446ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:28.838Z"}
+{"level":"info","message":"GET /transactions 200 452ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:30.796Z"}
+{"level":"info","message":"GET /transactions 200 318ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:32.370Z"}
+{"level":"info","message":"GET /transactions 304 431ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:34.325Z"}
+{"level":"info","message":"GET /balance 304 120ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:34.792Z"}
+{"level":"info","message":"GET /transactions 304 429ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:08:35.105Z"}
+{"level":"info","message":"GET /users 304 227ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:17.473Z"}
+{"amount":10000000000,"level":"warn","message":"Suspicious activity detected for user player1@example.com: large_transfer","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:28.338Z","toUserId":"690e86ad31b4668a365a627c"}
+{"level":"info","message":"Transfer request created: 691246788e5b5320a31af0f1 by player1@example.com","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:28.812Z"}
+{"level":"info","message":"POST /transfer 200 958ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:28.814Z"}
+{"level":"info","message":"User logged in: admin@example.com (Admin)","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:44.319Z"}
+{"level":"info","message":"POST /login 200 388ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:44.324Z"}
+{"level":"info","message":"GET /balance 200 251ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:44.669Z"}
+{"level":"info","message":"GET /balance 304 216ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:47.336Z"}
+{"level":"info","message":"GET /transactions 200 438ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:09:48.891Z"}
+{"level":"info","message":"POST /transfer/approve 400 494ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:10:02.156Z"}
+{"level":"info","message":"POST /transfer/approve 400 497ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:10:08.711Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 208ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:10:13.645Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 230ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:10:13.672Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 230ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:10:20.571Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 257ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:10:20.591Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 225ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:11:21.374Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 237ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:11:21.379Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 219ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:11:41.743Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 220ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:11:41.748Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 212ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:12:25.841Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 215ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:12:25.850Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 222ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:12:45.057Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 221ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:12:45.062Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 205ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:13:10.599Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 215ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:13:10.615Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 196ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:13:13.105Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 210ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:13:13.116Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 212ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:13:20.692Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 212ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:13:20.695Z"}
+{"level":"info","message":"GET /recovery/verified-users 304 215ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:14:00.662Z"}
+{"level":"info","message":"GET /recovery/banned-users 304 234ms","service":"zynga-poker-backend","timestamp":"2025-11-10T20:14:00.677Z"}

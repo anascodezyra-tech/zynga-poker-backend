@@ -1,0 +1,58 @@
+Transaction ID,From User ID,To User ID,Amount,Type,Status,Reason,Admin ID,Created At
+690e8757ab726982db9b386f,,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",100,manual,approved,,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",2025-11-07T23:57:11.691Z
+690e8734ab726982db9b385f,,"{
+  _id: new ObjectId('690e86ad31b4668a365a6281'),
+  name: 'Player One',
+  email: 'player1@example.com'
+}",55,manual,approved,,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",2025-11-07T23:56:36.233Z
+690e8725ab726982db9b3859,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}","{
+  _id: new ObjectId('690e86ad31b4668a365a6281'),
+  name: 'Player One',
+  email: 'player1@example.com'
+}",55,manual,approved,,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",2025-11-07T23:56:21.049Z
+690e86ae31b4668a365a628b,"{
+  _id: new ObjectId('690e86ad31b4668a365a6281'),
+  name: 'Player One',
+  email: 'player1@example.com'
+}","{
+  _id: new ObjectId('690e86ae31b4668a365a6286'),
+  name: 'Player Two',
+  email: 'player2@example.com'
+}",1000000000,manual,approved,Demo trade,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",2025-11-07T23:54:22.581Z
+690e86ae31b4668a365a6289,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}","{
+  _id: new ObjectId('690e86ad31b4668a365a6281'),
+  name: 'Player One',
+  email: 'player1@example.com'
+}",2000000000,manual,approved,Initial transfer,"{
+  _id: new ObjectId('690e86ad31b4668a365a627c'),
+  name: 'Admin Master',
+  email: 'admin@example.com'
+}",2025-11-07T23:54:22.480Z
