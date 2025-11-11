@@ -24,15 +24,22 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const uploadsDir = path.join(__dirname, "uploads");
-const exportsDir = path.join(__dirname, "exports");
-const logsDir = path.join(__dirname, "logs");
+// Only create directories if not in serverless environment
+if (process.env.VERCEL !== "1") {
+  const uploadsDir = path.join(__dirname, "uploads");
+  const exportsDir = path.join(__dirname, "exports");
+  const logsDir = path.join(__dirname, "logs");
 
-[uploadsDir, exportsDir, logsDir].forEach((dir) => {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-});
+  [uploadsDir, exportsDir, logsDir].forEach((dir) => {
+    try {
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+      }
+    } catch (err) {
+      console.warn(`Failed to create directory ${dir}:`, err.message);
+    }
+  });
+}
 
 const app = express();
 
@@ -49,9 +56,14 @@ app.use((req, res, next) => {
   next();
 });
 
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(async () => {
+// Initialize MongoDB connection
+let mongoConnected = false;
+const connectMongo = async () => {
+  if (mongoConnected) return;
+  
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    mongoConnected = true;
     logger.info("✅ MongoDB Connected Successfully");
 
     const dbName = mongoose.connection.db.databaseName;
@@ -82,35 +94,53 @@ mongoose
     } catch (err) {
       logger.error("❌ Error validating collections:", err);
     }
-  })
-  .catch((err) => {
+  } catch (err) {
     logger.error("❌ MongoDB Connection Failed:", err);
-    process.exit(1);
+    if (process.env.VERCEL !== "1") {
+      process.exit(1);
+    }
+    // In serverless, don't exit - just log the error
+  }
+};
+
+// Connect to MongoDB immediately if not in serverless, otherwise connect on first request
+if (process.env.VERCEL !== "1") {
+  connectMongo();
+} else {
+  // In serverless, connect on first request
+  app.use(async (req, res, next) => {
+    if (!mongoConnected) {
+      await connectMongo();
+    }
+    next();
+  });
+}
+
+// Setup Socket.io only if not in serverless environment
+// Socket.io won't work properly in Vercel serverless functions
+let server = null;
+let io = null;
+
+if (process.env.VERCEL !== "1") {
+  // Create HTTP server (required for socket.io)
+  server = http.createServer(app);
+
+  // Setup Socket.io for real-time updates
+  io = new Server(server, {
+    cors: { origin: "*" }
   });
 
-// Create HTTP server (required for socket.io)
-const server = http.createServer(app);
+  // Make socket.io available inside routes
+  app.set("io", io);
 
-// Setup Socket.io for real-time updates
-const io = new Server(server, {
-  cors: { origin: "*" }
-});
-
-// Make socket.io available inside routes
-app.set("io", io);
-
-io.on("connection", (socket) => {
-  logger.info(`Socket connected: ${socket.id}`);
-  socket.on("disconnect", () => logger.info(`Socket disconnected: ${socket.id}`));
-});
-
-app.use((err, req, res, next) => {
-  logger.error("Unhandled error:", err);
-  res.status(err.status || 500).json({
-    message: err.message || "Internal server error",
-    ...(process.env.NODE_ENV !== "production" && { stack: err.stack }),
+  io.on("connection", (socket) => {
+    logger.info(`Socket connected: ${socket.id}`);
+    socket.on("disconnect", () => logger.info(`Socket disconnected: ${socket.id}`));
   });
-});
+} else {
+  // In serverless, set io to null to prevent errors in routes
+  app.set("io", null);
+}
 
 // Routes (API endpoints)
 app.use("/api", authRoutes);
@@ -125,20 +155,63 @@ app.get("/", (req, res) => {
   res.send("Zynga Poker Backend is running...");
 });
 
-const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  logger.info(`🚀 Server running on port ${PORT}`);
-  logger.info(`📦 Environment: ${process.env.NODE_ENV || "development"}`);
-  
-  setTimeout(() => {
-    logConnectionStatus();
-  }, 2000);
-  
-  import("./workers/bulkTransferWorker.js")
-    .then(() => {
-      logger.info("✅ Bulk transfer worker module loaded");
-    })
-    .catch((err) => {
-      logger.warn("⚠️  Bulk transfer worker module load failed:", err.message);
-    });
+// Health check endpoint
+app.get("/api/health", (req, res) => {
+  res.json({ 
+    status: "ok", 
+    mongo: mongoConnected ? "connected" : "disconnected",
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || "development"
+  });
 });
+
+// Error handler middleware - MUST be after routes
+app.use((err, req, res, next) => {
+  logger.error("Unhandled error:", err);
+  res.status(err.status || 500).json({
+    message: err.message || "Internal server error",
+    ...(process.env.NODE_ENV !== "production" && { stack: err.stack }),
+  });
+});
+
+// Catch-all for undefined routes
+app.use((req, res) => {
+  res.status(404).json({
+    message: "Route not found",
+    path: req.path
+  });
+});
+
+// Export the app for Vercel serverless functions
+export default app;
+
+// For local development, start the server
+if (process.env.VERCEL !== "1") {
+  const PORT = process.env.PORT || 5000;
+  
+  if (server) {
+    server.listen(PORT, () => {
+      logger.info(`🚀 Server running on port ${PORT}`);
+      logger.info(`📦 Environment: ${process.env.NODE_ENV || "development"}`);
+      
+      setTimeout(() => {
+        logConnectionStatus();
+      }, 2000);
+      
+      import("./workers/bulkTransferWorker.js")
+        .then(() => {
+          logger.info("✅ Bulk transfer worker module loaded");
+        })
+        .catch((err) => {
+          logger.warn("⚠️  Bulk transfer worker module load failed:", err.message);
+        });
+    });
+  } else {
+    // Fallback if server wasn't created
+    const httpServer = http.createServer(app);
+    httpServer.listen(PORT, () => {
+      logger.info(`🚀 Server running on port ${PORT}`);
+      logger.info(`📦 Environment: ${process.env.NODE_ENV || "development"}`);
+    });
+  }
+}
