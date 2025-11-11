@@ -8,6 +8,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// Import modules
 import redis from "../config/redis.js";
 import logger from "../utils/logger.js";
 import { logConnectionStatus } from "../utils/connectionStatus.js";
@@ -25,15 +26,23 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, "..");
 
-const uploadsDir = path.join(rootDir, "uploads");
-const exportsDir = path.join(rootDir, "exports");
-const logsDir = path.join(rootDir, "logs");
+// Only create directories if not in serverless environment
+// File system operations may fail in serverless
+if (process.env.VERCEL !== "1") {
+  try {
+    const uploadsDir = path.join(rootDir, "uploads");
+    const exportsDir = path.join(rootDir, "exports");
+    const logsDir = path.join(rootDir, "logs");
 
-[uploadsDir, exportsDir, logsDir].forEach((dir) => {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+    [uploadsDir, exportsDir, logsDir].forEach((dir) => {
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+      }
+    });
+  } catch (err) {
+    console.warn("Failed to create directories:", err.message);
   }
-});
+}
 
 const app = express();
 
@@ -96,8 +105,12 @@ const connectMongo = async () => {
 
 // Connect to MongoDB on first request
 app.use(async (req, res, next) => {
-  if (!mongoConnected) {
-    await connectMongo();
+  try {
+    if (!mongoConnected) {
+      await connectMongo();
+    }
+  } catch (err) {
+    logger.error("MongoDB connection error in middleware:", err);
   }
   next();
 });
@@ -121,15 +134,10 @@ if (process.env.VERCEL !== "1") {
   } catch (err) {
     logger.warn("⚠️  Socket.io initialization failed (this is expected in serverless):", err.message);
   }
+} else {
+  // In serverless, set a dummy io object to prevent errors in routes
+  app.set("io", null);
 }
-
-app.use((err, req, res, next) => {
-  logger.error("Unhandled error:", err);
-  res.status(err.status || 500).json({
-    message: err.message || "Internal server error",
-    ...(process.env.NODE_ENV !== "production" && { stack: err.stack }),
-  });
-});
 
 // Routes (API endpoints)
 app.use("/api", authRoutes);
@@ -138,6 +146,15 @@ app.use("/api", transferRoutes);
 app.use("/api", transactionRoutes);
 app.use("/api", dailyMintRoutes);
 app.use("/api", recoveryRoutes);
+
+// Error handler middleware - MUST be after routes
+app.use((err, req, res, next) => {
+  logger.error("Unhandled error:", err);
+  res.status(err.status || 500).json({
+    message: err.message || "Internal server error",
+    ...(process.env.NODE_ENV !== "production" && { stack: err.stack }),
+  });
+});
 
 // Test route
 app.get("/", (req, res) => {
@@ -149,7 +166,16 @@ app.get("/api/health", (req, res) => {
   res.json({ 
     status: "ok", 
     mongo: mongoConnected ? "connected" : "disconnected",
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || "development"
+  });
+});
+
+// Catch-all for undefined routes
+app.use((req, res) => {
+  res.status(404).json({
+    message: "Route not found",
+    path: req.path
   });
 });
 
